@@ -19,7 +19,7 @@ export default function ContactForm() {
     )}`;
     window.open(whatsappLink, "_blank");
     // Redirige vers la page d'accueil après l'envoi
-    window.location.href = "/home";
+    window.location.href = "/";
   };
 
   return (
